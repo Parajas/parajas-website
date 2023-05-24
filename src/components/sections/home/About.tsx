@@ -6,7 +6,7 @@ import { Text } from "~/components/elements/Text";
 
 export function About() {
   return (
-    <section className="relative flex w-full items-center justify-center gap-9 bg-[url('/static/textures/lines.webp')] p-20 max-[1234px]:flex-wrap max-md:px-4 max-md:py-16" id="sobre">
+    <section className="relative flex w-full min-h-[calc(100vh_-_250px)] items-center justify-center gap-9 bg-[url('/static/textures/lines.webp')] p-20 max-[1234px]:flex-wrap max-md:px-4 max-md:py-16" id="sobre">
       <img
         src="/static/elements/plant_1.svg"
         alt="imagem de uma planta"
