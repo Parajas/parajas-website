@@ -1,28 +1,65 @@
-# Create T3 App
+# Parajás - Repositório do Website
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+Este repositório contém o código-fonte do website da Parajás. O website é construído utilizando o Next.js, um framework React para renderização do lado do servidor e geração de sites estáticos.
 
-## What's next? How do I make an app with this?
+## Sobre a Parajás
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+A Parajás é uma empresa de soluções sustentáveis que tem como foco abordar os desafios globais delineados pelos Objetivos de Desenvolvimento Sustentável (ODS) da Organização das Nações Unidas (ONU). Nossa missão é fornecer soluções inovadoras e ecologicamente corretas que contribuam para um futuro mais sustentável.
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+Na Parajás, acreditamos no poder da tecnologia para impulsionar mudanças positivas. Estamos empenhados em desenvolver equipamentos de ponta que não apenas atendam às necessidades de nossos clientes, mas também estejam alinhados com nosso compromisso com a preservação ambiental e o impacto social.
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+## Membros da Equipe
 
-## Learn More
+Temos uma equipe talentosa e dedicada trabalhando nos bastidores para dar vida à Parajás. Conheça nossos membros da equipe:
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+- Ryan Oliveira ([GitHub](https://github.com/ryanolivrdev))
+- Leticia Malato ([GitHub](https://github.com/LeticiaMalato))
+- Leticia Lima ([GitHub](https://github.com))
+- Vinicius Casanova ([GitHub](https://github.com/Vini-Casanova))
+- Miguel Kaique ([GitHub](https://github.com/Miguelangell1))
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+## Instruções de Configuração
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+Para configurar o website da Parajás localmente, siga estes passos:
 
-## How do I deploy this?
+1. Clone o repositório:
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+```
+git clone https://github.com/seu-nome-de-usuário/parajas-website.git
+```
+
+2. Navegue até o diretório do projeto:
+
+```
+cd parajas-website
+```
+
+3. Instale as dependências:
+
+```
+npm install
+```
+
+4. Inicie o servidor de desenvolvimento:
+
+```
+npm run dev
+```
+
+5. Abra seu navegador e acesse `http://localhost:3000` para visualizar o website em execução localmente.
+
+## Contribuições
+
+Aceitamos contribuições da comunidade para ajudar a melhorar o website da Parajás. Se você deseja contribuir, siga estes passos:
+
+1. Faça um fork do repositório.
+2. Crie um novo branch para sua funcionalidade ou correção.
+3. Faça suas alterações e as commit.
+4. Envie suas alterações para o seu fork.
+5. Envie uma pull request detalhando suas alterações.
+
+## Licença
+
+O website da Parajás está licenciado sob a [Licença MIT](LICENSE). Sinta-se à vontade para usar, modificar e distribuir o código de acordo com os termos da licença.
+
+Para mais informações sobre a Parajás e nossa missão, visite nosso website: [https://www.parajas.com](https://www.parajas.com.br)
