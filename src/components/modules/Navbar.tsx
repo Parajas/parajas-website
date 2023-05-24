@@ -12,7 +12,7 @@ export function Navbar() {
       <div className="flex items-center space-x-10">
         <ButtonNavbar text="Início" href="#" active />
         <ButtonNavbar text="Quem somos" href="#sobre" />
-        <ButtonNavbar text="Produtos" href="#produtos" />
+        <ButtonNavbar text="Soluções" href="#solucoes" />
         <ButtonNavbar text="Equipe" href="#contato" />
         <ButtonNavbar text="Contato" href="#contato" />
       </div>
