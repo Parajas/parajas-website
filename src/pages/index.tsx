@@ -4,6 +4,8 @@ import { Default } from "~/components/layouts/Default";
 import { Hero } from "~/components/sections/home/Hero";
 import { About } from "~/components/sections/home/About";
 import { Companies } from "~/components/sections/home/Companies";
+import { Products } from "~/components/sections/home/Products";
+import { Team } from "~/components/sections/home/Team";
 
 const Home: NextPage = () => {
   return (
@@ -14,6 +16,8 @@ const Home: NextPage = () => {
       <Hero />
       <About />
       <Companies />
+      <Products />
+      <Team />
     </Default>
   );
 };
