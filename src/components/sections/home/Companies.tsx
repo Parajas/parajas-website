@@ -1,7 +1,5 @@
 import Image from "next/image";
-import { Button } from "~/components/elements/Button";
 import { Heading } from "~/components/elements/Heading";
-import { Text } from "~/components/elements/Text";
 
 const companies = [
   {
@@ -28,12 +26,12 @@ const companies = [
 
 export function Companies() {
   return (
-    <section className="flex w-full flex-col items-center bg-gray-100 p-8 max-md:gap-4 max-md:p-4">
+    <section className="flex w-full flex-col items-center bg-white p-8 max-md:gap-4 max-md:p-4">
       <Heading
         color="text-black-900"
         className="mb-6 max-sm:text-center"
       >
-        Empresas que acreditam em nós
+        Parceiros que acreditam em nós
       </Heading>
       <div className="flex flex-wrap items-center justify-center gap-16">
         {companies.map((company) => (
