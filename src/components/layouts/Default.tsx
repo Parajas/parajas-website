@@ -1,5 +1,7 @@
 import Head from "next/head";
 import { type ReactNode } from "react";
+import { Navbar } from "../modules/Navbar";
+import { Footer } from "../modules/Footer";
 
 interface DefaultProps {
   children: ReactNode;
@@ -50,9 +52,29 @@ export function Default({
         <meta name="twitter:image:width" content="1200" />
         <meta name="twitter:image:height" content="620" />
 
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/static/favicons/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/static/favicons/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/static/favicons/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Navbar />
       <main className="flex flex-col">{children}</main>
+      <Footer />
     </>
   );
 }
