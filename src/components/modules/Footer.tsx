@@ -14,8 +14,8 @@ export function Footer() {
           aria-label="Footer"
         >
           <div className="flex flex-col items-center gap-2">
-            <Heading>PARAJÁS</Heading>
-            <span>
+            <Heading color="text-gray-950">PARAJÁS</Heading>
+            <span className="text-gray-700">
             Soluções Sustentáveis
             </span>
           </div>
@@ -26,14 +26,14 @@ export function Footer() {
             target="_blank"
             rel="noreferrer"
           >
-            <InstagramLogo size={24} />
+            <InstagramLogo size={24} className="text-gray-700"/>
           </a>
           <a
             href="https://www.youtube.com/@Parajas-kt9ow"
             target="_blank"
             rel="noreferrer"
           >
-            <YoutubeLogo size={24} />
+            <YoutubeLogo size={24} className="text-gray-700"/>
           </a>
         </div>
         <p className="mt-10 text-center text-xs leading-5 text-gray-500">
