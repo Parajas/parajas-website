@@ -21,16 +21,16 @@ const companies = [
     name: "EcoRota",
     image: "/static/companies/eco-rota.svg",
     link: "https://ecorota.com",
-  }
+  },
 ];
 
 export function Companies() {
   return (
-    <section className="flex w-full flex-col items-center bg-white p-8 max-md:gap-4 max-md:p-4">
-      <Heading
-        color="text-black-900"
-        className="mb-6 max-sm:text-center"
-      >
+    <section
+      className="flex w-full flex-col items-center bg-white p-8 max-md:gap-4 max-md:p-4"
+      id="parceiros"
+    >
+      <Heading color="text-black-900" className="mb-6 max-sm:text-center">
         Parceiros que acreditam em nós
       </Heading>
       <div className="flex flex-wrap items-center justify-center gap-16">
@@ -41,7 +41,7 @@ export function Companies() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            < Image
+            <Image
               src={company.image}
               width={150}
               height={112}

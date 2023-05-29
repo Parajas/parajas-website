@@ -7,9 +7,9 @@ export function Contact() {
   return (
     <section
       className="mt-24 flex w-full flex-col items-center justify-center gap-9 px-20 max-[1234px]:flex-wrap max-md:px-4 md:justify-start"
-      id="contact"
+      id="contato"
     >
-      <Heading size="xl" className=" w-fit" color="text-black-900">
+      <Heading size="xl" className="w-fit max-md:text-center" color="text-black-900">
         Entre em contato conosco!
       </Heading>
 

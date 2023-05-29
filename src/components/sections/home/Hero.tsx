@@ -9,7 +9,10 @@ export function Hero() {
   };
 
   return (
-    <section className="flex h-screen w-full flex-col items-center justify-center gap-8 bg-[url('/static/images/cotijuba-bg.webp')] bg-cover bg-center px-20 transition-shadow max-md:gap-4 max-md:px-4 ">
+    <section
+      className="flex h-screen w-full flex-col items-center justify-center gap-8 bg-[url('/static/images/cotijuba-bg.webp')] bg-cover bg-center px-20 transition-shadow max-md:gap-4 max-md:px-4 "
+      id="inicio"
+    >
       <Heading asChild size="6xl" className="text-white">
         <strong className="text-5xl max-md:text-center max-md:text-2xl">
           UM MUNDO MAIS{" "}

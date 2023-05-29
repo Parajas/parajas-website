@@ -59,8 +59,8 @@ const members = [
 export function Team() {
   return (
     <section
-      className="flex w-full flex-col items-center justify-center gap-9 px-20 mt-12  max-[1234px]:flex-wrap max-md:px-4 md:justify-start"
-      id="produtos"
+      className="flex w-full flex-col items-center justify-center gap-9 px-20 mt-20  max-[1234px]:flex-wrap max-md:px-4 md:justify-start"
+      id="equipe"
     >
       <Heading size="xl" className=" w-fit" color="text-black-900">
         Nosso Time

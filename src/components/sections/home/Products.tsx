@@ -6,8 +6,8 @@ import { Text } from "~/components/elements/Text";
 export function Products() {
   return (
     <section
-      className="mt-12 flex w-full flex-col items-center justify-center gap-9 px-20 py-12 max-[1234px]:flex-wrap max-md:px-4 md:justify-start"
-      id="produtos"
+      className="mt-12 flex w-full flex-col items-center justify-center gap-9 px-20 py-20 max-[1234px]:flex-wrap max-md:px-4 md:justify-start"
+      id="solucoes"
     >
       <Heading size="xl" className=" w-fit" color="text-black-900">
         Conheça nossas soluções
@@ -37,7 +37,7 @@ type ProductProps = {
 function Product({ title, description, icon }: ProductProps) {
   return (
     <div className="flex max-w-xs flex-col items-center justify-center gap-4 rounded-lg bg-white p-4 shadow-md max-md:gap-6">
-      <div>
+      <div className="flex flex-col items-center justify-center">
         {icon}
         <Heading size="lg" className=" w-fit" color="text-black-900">
           {title}
