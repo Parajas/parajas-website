@@ -6,6 +6,7 @@ import { About } from "~/components/sections/home/About";
 import { Companies } from "~/components/sections/home/Companies";
 import { Products } from "~/components/sections/home/Products";
 import { Team } from "~/components/sections/home/Team";
+import { Contact } from "~/components/sections/home/Contact";
 
 const Home: NextPage = () => {
   return (
@@ -18,6 +19,7 @@ const Home: NextPage = () => {
       <Companies />
       <Products />
       <Team />
+      <Contact />
     </Default>
   );
 };
