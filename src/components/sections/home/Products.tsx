@@ -1,4 +1,4 @@
-import { Plant, TreeEvergreen, TreePalm } from "@phosphor-icons/react";
+import { TreeEvergreen, TreePalm } from "@phosphor-icons/react";
 import { Button } from "~/components/elements/Button";
 import { Heading } from "~/components/elements/Heading";
 import { Text } from "~/components/elements/Text";
@@ -6,13 +6,13 @@ import { Text } from "~/components/elements/Text";
 export function Products() {
   return (
     <section
-      className="mt-12 flex w-full flex-col items-center justify-center gap-9 px-20 max-[1234px]:flex-wrap max-md:px-4 md:justify-start"
+      className="mt-12 flex w-full flex-col items-center justify-center gap-9 px-20 py-12 max-[1234px]:flex-wrap max-md:px-4 md:justify-start"
       id="produtos"
     >
       <Heading size="xl" className=" w-fit" color="text-black-900">
         Conheça nossas soluções
       </Heading>
-      <div className="flex flex-wrap gap-4 justify-center">
+      <div className="flex flex-wrap justify-center gap-4">
         <Product
           title="Ceuci"
           description="Um cortador de folhas de bananeira que potencializa a economia de tempo e esforço. Contribuindo para a economia circular e a geração de renda em comunidades locais."
@@ -48,4 +48,3 @@ function Product({ title, description, icon }: ProductProps) {
     </div>
   );
 }
-
